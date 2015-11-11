@@ -1,0 +1,63 @@
+Curso angular
+
+- Basicamente o fron-end
+	- não é necessário saber nenhuma linguagem especifica
+	- visando apenas a apresentação
+- Diretivas
+	- ng-controller
+		- gerenciado por determinado javascript
+	- ng-app
+		- tudo que estiver dentro dessa tag, será visto pelo angular
+	- ng-model
+		- criar variavel pelo angular
+		- {{...}}
+			- utilizado para colocar expressões no angular.
+		- controller
+			- regras de negocio do modulo
+	- ng-src
+		- atributo que carrega imagem do próprio angular
+	- ng-repeat
+		- for each do angular
+		- filter
+			- filtrar variaveis de um campo
+			- Ex: {campo:filter}
+	- ng-view
+		- inserção de templates
+		- usado para inserir templates de rotas
+		- # 
+			- utilizado para identificar a rota
+			- Ex: localhost:3000/#fotos
+	- ng-show
+		- diretiva para mostrar o componente caso atenda determinado requisito
+- Variaveis privadas
+	- $scope
+		- variavel para scope da chamada
+	- $http
+		- objeto para controle de chamadas AJAX
+		- trabalha com os conceitos de chamadas REST
+- Rotas
+	- $ngRoute
+		- tag para uso de rotas
+	- inserção de páginas dentro do código via rotas
+
+- Node Js
+	- servidor para rodar javascript
+	- Comandos
+		- npm start: inicia o servidor
+	- pasta public
+		- pasta root
+		- são os arquivos que serão processados no nodejs
+
+- BootStrap
+	- classes
+		- container
+			- centralizar o conteúdo
+			- responsável pela visão responsiva da página
+	- fonts
+		- os icones são fontes e não imagens
+		- não é necessário fazer o import, o próprio bootstrap gerencia esse import.
+
+- HTML5
+	- required
+		- validar campos
+		- Ex: required="required" oninvalid="this.setCustomValidity('Título da imagem é obrigatório!')"
